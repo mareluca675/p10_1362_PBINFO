@@ -1,0 +1,26 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main ()
+{
+  int long long n, P = 1;
+  
+  cin >> n;
+  if(n == 0)
+  {
+    cout << "1";   
+  }
+    else
+  {
+  int i;
+  cout << 1;
+  
+  for(i = 1; i <= n; i ++)
+  {
+  cout << 0;
+  }
+  }
+   
+}
